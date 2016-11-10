@@ -218,7 +218,6 @@ public class CanvasTool {
 			response = (arguments.length == 1) ? true:false;
 			break;
 		case "?":
-		case "h":
 		case "H":
 			response = true;
 				break;
@@ -284,7 +283,7 @@ public class CanvasTool {
 			try {
 				//Validate the correctness of the invoked command...
 				if (myCt.validateCommand(parameters)) {
-					switch (parameters[0]) {
+					switch (parameters[0].toUpperCase()) {
 					case "C":
 						myCt.initCanvas(Integer.valueOf(parameters[1]), Integer.valueOf(parameters[2]));
 						myCt.printCanvas();
@@ -304,7 +303,6 @@ public class CanvasTool {
 								parameters[3].charAt(0));
 						myCt.printCanvas();
 						break;
-					case "h":
 					case "H":
 					case "?":							
 						myCt.printHelp();
