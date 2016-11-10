@@ -15,9 +15,6 @@ In order to successfuly compile, build, test and run the drawingtool application
 
 - Git Client, from https://git-scm.com/download/win
 
-```
-Give examples
-```
 
 ### Installing
 
