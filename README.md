@@ -24,12 +24,13 @@ In order to successfuly compile, build, test and run the drawingtool application
 git clone https://github.com/scampuza/drawingtool.git
 ```
 
-- Then, you need to set the JAVA_HOME environment variable to the folder where you installed Java 8 JDK, 
+- Then, you need to set the JAVA_HOME environment variable to the folder where you installed Java 8 JDK,and adjust the PATH variable to include the Java 1.8 installation:
 
 Linux:
 
 ```
   export JAVA_HOME=/opt/java/jdk1.8.0_111
+  export PATH=$JAVA_HOME/bin:$PATH
 ```
 - Then, you need to set the MAVEN_HOME environment variable to the folder where you installed Maven 
 
