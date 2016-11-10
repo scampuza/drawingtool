@@ -13,12 +13,45 @@ import java.util.Scanner;
  * @version 1.0.0 07/11/16
  */
 public class CanvasTool {
+	
 	// Define class private variables
 	private char[][] canvas;
 	private int canvasHeight;
 	private int canvasWidth;
 	private char[] horCanvasBorder;
 	private boolean isCanvasInitialized;
+	
+	/**
+	 * @return the canvas
+	 */
+	public char[][] getCanvas() {
+		return canvas;
+	}
+	/**
+	 * @return the canvasHeight
+	 */
+	public int getCanvasHeight() {
+		return canvasHeight;
+	}
+	/**
+	 * @return the canvasWidth
+	 */
+	public int getCanvasWidth() {
+		return canvasWidth;
+	}
+	/**
+	 * @return the horCanvasBorder
+	 */
+	public char[] getHorCanvasBorder() {
+		return horCanvasBorder;
+	}
+	/**
+	 * @return the isCanvasInitialized
+	 */
+	public boolean isCanvasInitialized() {
+		return isCanvasInitialized;
+	}
+
 
 	//
 	/**
