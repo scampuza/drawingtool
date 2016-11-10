@@ -80,13 +80,14 @@ If you want to run the JAR generated with "mvn package", you may follow the foll
 
 ## Built With
 
-* Eclipse Neon IDE
+* Eclipse Neon - IDE
 * JUnit - Testing Framework
 * Maven - Build and Testing Automation
+* Java 8
 
 ## Authors
 
-* **Santiago Campuzano Vallejo** - *Initial work* - [PurpleBooth](https://github.com/scampuza)
+* **Santiago Campuzano Vallejo** - *Initial work* - (https://github.com/scampuza)
 
 ## License
 
