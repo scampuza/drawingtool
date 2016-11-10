@@ -72,7 +72,11 @@ If you want to run the JAR generated with "mvn package", you may follow the foll
 ```
   cd drawingtool/target
   java -jar drawingtool-1.0.0-SNAPSHOT.jar
+
 ```
+## Using the application
+
+ You can type ? or h as a command for getting help about how to use the application..
 
 ## Built With
 
