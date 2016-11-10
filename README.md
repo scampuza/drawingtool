@@ -27,39 +27,42 @@ Give examples
 git clone https://github.com/scampuza/drawingtool.git
 ```
 
-
 - Then, you need to set the JAVA_HOME environment variable to the folder where you installed Java 8 JDK, 
 
+Linux:
+
 ```
-Linux:  
   export JAVA_HOME=/opt/java/jdk1.8.0_111
 ```
 - Then, you need to set the MAVEN_HOME environment variable to the folder where you installed Maven 
 
+Linux:  
 
 ```
-Linux:  
   export MAVEN_HOME=/opt/apache-maven-3.3.9
 ```
 
 - After that, you have to cd into the drawingtool folder (the git repository cloned).
 
+Linux: 
+
 ```
-Linux:  
   cd drawingtool/drawingtool
 ```
 - If everything went right, you should be able to compile, build, test and run the drawingtool application:
 
-```
 To generate the JAR package:  
+
+```
   cd drawingtool/drawingtool
   mvn package
 ```
 
 ## Running the tests
 
+To execute the automated unit tests: 
+
 ```
-To execute the automated unit tests:  
   cd drawingtool/drawingtool
   mvn test
 ```
