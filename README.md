@@ -45,14 +45,14 @@ Linux:
 Linux: 
 
 ```
-  cd drawingtool/drawingtool
+  cd drawingtool/
 ```
 - If everything went right, you should be able to compile, build, test and run the drawingtool application:
 
 To generate the JAR package:  
 
 ```
-  cd drawingtool/drawingtool
+  cd drawingtool/
   mvn package
 ```
 
@@ -61,7 +61,7 @@ To generate the JAR package:
 To execute the automated unit tests: 
 
 ```
-  cd drawingtool/drawingtool
+  cd drawingtool/
   mvn test
 ```
 
@@ -70,7 +70,7 @@ To execute the automated unit tests:
 If you want to run the JAR generated with "mvn package", you may follow the following steps:
 
 ```
-  cd drawingtool/drawingtool/target
+  cd drawingtool/target
   java -jar drawingtool-1.0.0-SNAPSHOT.jar
 ```
 
