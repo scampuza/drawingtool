@@ -14,7 +14,7 @@ mvn package'''
     }
     stage('Publish') {
       steps {
-        archiveArtifacts '*.jar'
+        archiveArtifacts 'target/*.jar'
       }
     }
   }
