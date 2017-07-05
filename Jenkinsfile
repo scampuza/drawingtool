@@ -25,6 +25,10 @@ mvn package'''
         echo 'This artifact has been promoted to production'
         waitUntil() {
           echo 'Promoting'
+          script {
+            return 0
+          }
+          
         }
         
       }
