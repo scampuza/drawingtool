@@ -12,5 +12,10 @@ mvn package'''
         sh 'mvn test'
       }
     }
+    stage('Publish') {
+      steps {
+        archiveArtifacts '*.jar'
+      }
+    }
   }
 }
