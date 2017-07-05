@@ -19,5 +19,10 @@ mvn package'''
         mail(subject: 'drawing-tool-publish', body: 'drawing-tool-publish ', from: 'scampuza@gmail.com', to: 'scampuza@gmail.com')
       }
     }
+    stage('Promote') {
+      steps {
+        input(message: 'Are you sure you want to promote this artifact to production?', id: 'promote_response', ok: 'promote_response')
+      }
+    }
   }
 }
