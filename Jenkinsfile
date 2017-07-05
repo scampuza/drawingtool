@@ -23,14 +23,6 @@ mvn package'''
       steps {
         input(message: 'Are you sure you want to promote this artifact to production?', id: 'promote_response', ok: 'Promote')
         echo 'This artifact has been promoted to production'
-        waitUntil() {
-          echo 'Promoting'
-          script {
-            return 0
-          }
-          
-        }
-        
       }
     }
   }
