@@ -16,6 +16,7 @@ mvn package'''
     stage('Publish') {
       steps {
         archiveArtifacts 'target/*.jar'
+        mail(subject: 'drawing-tool-publish', body: 'drawing-tool-publish ', from: 'scampuza@gmail.com', to: 'scampuza@gmail.com')
       }
     }
   }
