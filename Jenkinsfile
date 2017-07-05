@@ -10,6 +10,7 @@ mvn package'''
     stage('Test') {
       steps {
         sh 'mvn test'
+        junit 'target/surefire-reports/*'
       }
     }
     stage('Publish') {
